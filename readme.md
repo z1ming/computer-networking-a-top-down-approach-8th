@@ -1,4 +1,4 @@
-# 《计算机网络：自顶向下方法》原书第八版
+# 《计算机网络：自顶向下方法》原书第八版 Wireshark 实验
 复习题、习题、编程作业、Wireshark 实验
 
 # 目录
@@ -17,9 +17,10 @@
 - TLS 
 - Trace files
 
-# 今日目标
+# 本周目标
 - [ ] 下载 Wireshark 实验文件，了解 Wireshark 实验内容
 https://gaia.cs.umass.edu/kurose_ross/wireshark.php
+- [ ] 完成一章 wireshark 实验
 
 # Computer Networking: A Top Down Approach (Eight Edition)
 # WIRESHARK LABS
