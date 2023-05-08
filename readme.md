@@ -22,7 +22,6 @@
 - [x] 下载 Wireshark 实验文件，了解 Wireshark 实验内容
 https://gaia.cs.umass.edu/kurose_ross/wireshark.php
 - [ ] 完成 Getting Started wireshark 实验
-- [ ] - [ ] 完成 Getting Started wireshark 实验
 
 # Computer Networking: A Top Down Approach (Eight Edition) - WIRESHARK 
 - Getting Started	([PDF](./Getting%20Started/W))
