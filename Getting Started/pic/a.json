@@ -1,0 +1,92 @@
+[
+    {
+      "accountingId": "8110",
+      "accountingType": "productId",
+      "eventCode": "REPAY_EVENT",
+      "accountingCode": "profit_finacne_FEE&BOOK_8110",
+      "codeDescribe": "信用飞-费用",
+      "template": "<% print(fee);  %> ",
+      "codeType": "null",
+      "rate": "null"
+    },
+    {
+      "accountingId": "8110",
+      "accountingType": "productId",
+      "eventCode": "REPAY_EVENT",
+      "accountingCode": "profit_finacne_CHARGE&BOOK_8110",
+      "codeDescribe": "信用飞-服务费",
+      "template": "<%print(charge);  %>",
+      "codeType": "null",
+      "rate": "null"
+    },
+    {
+      "accountingId": "8110",
+      "accountingType": "productId",
+      "eventCode": "REPAY_EVENT",
+      "accountingCode": "profit_finacne_PENALTY&BOOK_8110",
+      "codeDescribe": "信用飞-罚息",
+      "template": "  <%  print(penalty);  %>",
+      "codeType": "null",
+      "rate": "null"
+    },
+    {
+      "accountingId": "8110",
+      "accountingType": "productId",
+      "eventCode": "LOAN_EVENT",
+      "accountingCode": "profit_finacne_LOAN&AMOUNT&BOOK_8110",
+      "codeDescribe": "信用飞-放款金额",
+      "template": "  <%  print(loanAmount);  %>",
+      "codeType": "null",
+      "rate": "null"
+    },
+    {
+      "accountingId": "8110",
+      "accountingType": "productId",
+      "eventCode": "CREDIT_EVENT",
+      "accountingCode": "profit_finacne_CREDIT&AMOUNT&BOOK_8110",
+      "codeDescribe": "null",
+      "template": "  <%  print(credit_amount);  %>",
+      "codeType": "null",
+      "rate": "null"
+    },
+    {
+      "accountingId": "8110",
+      "accountingType": "productId",
+      "eventCode": "LOAN_EVENT",
+      "accountingCode": "profit_finacne_PROFIT&BOOK_8110",
+      "codeDescribe": "信用飞-cps收益",
+      "template": "<% print(firstLoan ? loanAmount * 0.03 : loanAmount * 0.025);%>",
+      "codeType": "null",
+      "rate": "null"
+    },
+    {
+      "accountingId": "8110",
+      "accountingType": "productId",
+      "eventCode": "REPAY_EVENT",
+      "accountingCode": "profit_finacne_REPAY&AMOUNT&BOOK_8110",
+      "codeDescribe": "信用飞-还款金额",
+      "template": "<% print(amount);  %>",
+      "codeType": "null",
+      "rate": "null"
+    },
+    {
+      "accountingId": "8110",
+      "accountingType": "productId",
+      "eventCode": "REPAY_EVENT",
+      "accountingCode": "profit_finacne_PRINCIPAL&BOOK_8110",
+      "codeDescribe": "信用飞-本金",
+      "template": "    <%  print(principal);   %>",
+      "codeType": "null",
+      "rate": "null"
+    },
+    {
+      "accountingId": "8110",
+      "accountingType": "productId",
+      "eventCode": "REPAY_EVENT",
+      "accountingCode": "profit_finacne_INTEREST&BOOK_8110",
+      "codeDescribe": "信用飞-利息",
+      "template": "<% print(interest);  %> ",
+      "codeType": "null",
+      "rate": "null"
+    }
+  ]
